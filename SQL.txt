@@ -1,0 +1,39 @@
+Python
+데이터 베이스
+- 관계형 : 테이블 -> 오라클 / Mysql
+- 문서형 : Nosql -> MongoDB 
+
+//sql 편집기
+-sql plus+ : 터미널 모드
+ : 오라클 설치시 자동 설치
+ : Run SQL Command Line
+-sql developer ; gui
+ : 오라클사에서 제공하는 편집기
+
+- 토드 : GUI
+ 
+// 계정
+- 관리자 계정 : -system/ 비밀번호(1234)
+- 사용자 계정
+ : -hr / scott - 학습용 계정
+ : 별도의 계정을 만들수도 있음
+
+// system/1234 계정 접속 만들기
+ - 슬라이드 19쪽
+-- scott.sql 파일 찾기
+C:\oraclexe\app\oracle\product\11.2.0\server\rdbms\admin
+-- scott계정활성화 
+SQL> alter user scott identified by tiger; 
+
+//CRUD : 
+- Create
+- Read
+- Update
+- Delete
+
+//SQL 사용
+--: sql 주석문 [ctrl+/]
+-- oracle 폴더에 저장
+
+-- 현재 사용자 확인하기
+-- 해당 명령 실행은 블록 잡은 후 ctrl + enter
